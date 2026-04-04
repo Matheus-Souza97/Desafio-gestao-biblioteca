@@ -4,7 +4,7 @@
 
 ## Descrição
 
-Este é o **Desafio: Sistema de Biblioteca - Parte 1**, um projeto em **C** que permite cadastrar e listar livros utilizando um **array estático**.  
+Este é o Desafio: Sistema de Biblioteca - Parte 1, um projeto em C que permite cadastrar e listar livros utilizando um array estático.  
 O objetivo desta primeira parte é treinar conceitos de:
 
 - `structs` em C
@@ -12,7 +12,7 @@ O objetivo desta primeira parte é treinar conceitos de:
 - Organização básica de código
 - Manipulação de arrays
 
-O programa funciona via **menu interativo** no terminal, permitindo cadastrar novos livros e listar os já cadastrados.
+O programa funciona via menu interativo no terminal, permitindo cadastrar novos livros e listar os já cadastrados.
 
 ---
 
@@ -32,3 +32,16 @@ O programa funciona via **menu interativo** no terminal, permitindo cadastrar no
 ## Estrutura do Projeto
 
 O programa principal está no arquivo:
+
+```c
+bibliotech.c
+
+
+Ele contém:
+
+- `struct Livro` → define os campos de cada livro (`nome`, `autor`, `editora`, `edicao`)
+- Função `limparBufferEntrada()` → para tratar o buffer de entrada e evitar problemas com `scanf` e `fgets`
+- Menu principal no `main()` → interação com o usuário
+
+
+```
